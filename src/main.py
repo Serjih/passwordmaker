@@ -1,1 +1,3 @@
-import src.symbol_groups as sg
+import src.functions
+
+src.functions.mk_pwd()
