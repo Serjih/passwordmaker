@@ -52,7 +52,7 @@ def get_min_max_len():
         return None
 
     try:
-        max_len = int(input('Input minimal password length: ').strip())
+        max_len = int(input('Input maximal password length: ').strip())
 
         if max_len < min_len:
             print('This number is less then minimal password length!')
