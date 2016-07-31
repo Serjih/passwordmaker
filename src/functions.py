@@ -34,7 +34,7 @@ def mk_pwd():
 
     save = input('Save password? [y/N] ').lower()
 
-    if save != '' or save != 'n':
+    if save != '' and save != 'n':
         save_pwd(password)
 
 
